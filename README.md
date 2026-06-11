@@ -36,6 +36,18 @@ finance-agent/
 
 ---
 
+## 🛠️ Tech Stack
+
+*   **🎨 Frontend:** HTML5, Vanilla CSS3 (Glassmorphism & custom variables), ES6 Module JS Architecture.
+*   **🎙️ Audio & Voice:** Meyda.js (Digital Signal Processing library for client-side audio feature extraction) + Web Speech API (customized for `en-IN` accents and silence auto-submissions).
+*   **⚡ Backend & APIs:** Node.js, Express, Vercel Serverless Functions.
+*   **🧠 Artificial Intelligence:**
+    *   **LLMs:** Groq Cloud APIs (powering Llama-3.3-70b-versatile and Llama-3.1-8b-instant models).
+    *   **Sentiment Models:** Hugging Face Inference API (powering `ProsusAI/finbert` for financial-specific sentiment analysis).
+*   **💾 Database:** MongoDB Atlas / Mongoose, backed by a local JSON fallback file (`users_db.json`) for offline zero-config development.
+
+---
+
 ## ⚙️ How Each Application Engine Works
 
 ### 1. 🧠 Advice & AI Orchestration Engine
