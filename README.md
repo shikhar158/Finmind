@@ -1,5 +1,7 @@
 # 🧠 FinMind — Behavioral Finance AI Advisor
 
+**Live Web App:** [https://finmindai.vercel.app/](https://finmindai.vercel.app/)
+
 FinMind is a modern, premium behavioral finance dashboard and AI advisor. Unlike generic financial apps, FinMind blends your portfolio numbers and real-time market data with your personal money psychology—analyzing tone, urgency, and cognitive biases to deliver deeply personalized, emotionally grounded financial guidance.
 
 ---
