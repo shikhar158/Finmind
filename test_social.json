@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "stocktwits": {
+    "messages": [],
+    "bullish": 0,
+    "bearish": 1
+  },
+  "reddit": [
+    {
+      "subreddit": "r/investing",
+      "title": "What stocks don’t correlate with the major tech / top S&amp;P 500 stocks?",
+      "score": 140,
+      "numComments": 109,
+      "url": "https://reddit.com/r/investing/comments/1s6t612/what_stocks_dont_correlate_with_the_major_tech/",
+      "snippet": "Lately it feels like everything goes up together and goes down together. Even boring hedges like gold have blasted up an"
+    },
+    {
+      "subreddit": "r/investing",
+      "title": "Gold ETF Momentum Analysis",
+      "score": 15,
+      "numComments": 16,
+      "url": "https://reddit.com/r/investing/comments/1s5alyy/gold_etf_momentum_analysis/",
+      "snippet": "Gold ETF Market Alert: Momentum -571 and RSI 35.7\n\nA Gold ETF momentum of -571 paired with an RSI of 35.7 is an extreme "
+    },
+    {
+      "subreddit": "r/personalfinance",
+      "title": "Are we doing this right or do we need to diversify?",
+      "score": 13,
+      "numComments": 11,
+      "url": "https://reddit.com/r/personalfinance/comments/1ruxzxr/are_we_doing_this_right_or_do_we_need_to_diversify/",
+      "snippet": "31M/31F with heavy SP 500 exposure.\n\nMy wife and I are both 31 with one toddler (in daycare until the end of 2027). We’r"
+    },
+    {
+      "subreddit": "r/personalfinance",
+      "title": "Sell gold and just put the cash in bank?",
+      "score": 10,
+      "numComments": 12,
+      "url": "https://reddit.com/r/personalfinance/comments/1rpa05k/sell_gold_and_just_put_the_cash_in_bank/",
+      "snippet": "I’m 26. I have 10k sitting in money market savings account at credit union, give or take a thousand in checking for bill"
+    },
+    {
+      "subreddit": "r/personalfinance",
+      "title": "Simplifying finances with partner",
+      "score": 5,
+      "numComments": 11,
+      "url": "https://reddit.com/r/personalfinance/comments/1rtldeb/simplifying_finances_with_partner/",
+      "snippet": "Wife and I got married in September last year. Closing on our new house this upcoming week. Want to now simplify our mon"
+    }
+  ],
+  "expertPosts": [
+    {
+      "expert": "WSJ Markets",
+      "title": "Comex Gold, Silver Settle Lower",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "pubDate": "Mon, 27 Jan 2025"
+    }
+  ]
+}

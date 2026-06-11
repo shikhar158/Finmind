@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "asset": {
+    "symbol": "GC=F",
+    "type": "commodity",
+    "name": "Gold"
+  },
+  "news": [
+    {
+      "title": "Comex Gold, Silver Settle Lower",
+      "source": "WSJ Markets",
+      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "publishedAt": "Mon, 27 Jan 2025"
+    }
+  ],
+  "price": {
+    "asset": "Gold",
+    "symbol": "GC=F",
+    "price": "4540.30",
+    "change": "0.35",
+    "currency": "USD"
+  }
+}

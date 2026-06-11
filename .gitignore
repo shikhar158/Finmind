@@ -1,0 +1,9 @@
+.vercel
+.env
+node_modules/
+users_db.json
+*.log
+*log.txt
+out.txt
+output.txt
+debug_fallback.txt

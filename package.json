@@ -1,0 +1,14 @@
+{
+  "name": "finance-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "rss-parser": "^3.13.0"
+  }
+}

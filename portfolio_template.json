@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "name": "Arjun Mehta",
+    "age": 32,
+    "occupation": "Software Engineer",
+    "riskTolerance": "Moderate",
+    "goals": ["Buy a house", "Retire at 50"],
+    "last_updated": "2025-03-23"
+  },
+  "assets": [
+    { "asset": "HDFCBANK", "type": "Stock", "qty": 20, "price": 1580 },
+    { "asset": "INFY", "type": "Stock", "qty": 15, "price": 1720 },
+    { "asset": "GOLDBEES", "type": "ETF", "qty": 50, "price": 58 },
+    { "asset": "NIFTYBEES", "type": "ETF", "qty": 100, "price": 220 },
+    { "asset": "SBI FD 1-Year", "type": "Fixed Deposit", "qty": 1, "price": 150000, "rate": 7.1 }
+  ],
+  "liabilities": [
+    { "type": "Personal Loan", "lender": "ICICI Bank", "principal_remaining": 50000 },
+    { "type": "Credit Card", "lender": "HDFC", "principal_remaining": 15000 }
+  ],
+  "recent_transactions": [
+    { "date": "2024-10-05", "type": "BUY", "asset": "HDFCBANK", "qty": 5, "price": 1560 },
+    { "date": "2024-12-12", "type": "SELL", "asset": "INFY", "qty": 5, "price": 1750 },
+    { "date": "2024-12-30", "type": "BUY", "asset": "NIFTYBEES", "qty": 50, "price": 215 },
+    { "date": "2025-01-28", "type": "SELL", "asset": "HDFCBANK", "qty": 5, "price": 1540 },
+    { "date": "2025-02-10", "type": "SELL", "asset": "NIFTYBEES", "qty": 30, "price": 212 },
+    { "date": "2025-03-05", "type": "BUY", "asset": "NIFTYBEES", "qty": 20, "price": 210 }
+  ],
+  "incomeHistory": [
+    { "month": "Oct 2024", "amount": 95000 },
+    { "month": "Nov 2024", "amount": 95000 },
+    { "month": "Dec 2024", "amount": 95000 },
+    { "month": "Jan 2025", "amount": 60000 },
+    { "month": "Feb 2025", "amount": 0 },
+    { "month": "Mar 2025", "amount": 30000 }
+  ]
+}
