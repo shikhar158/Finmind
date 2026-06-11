@@ -16,66 +16,56 @@ FinMind is a modern, premium behavioral finance dashboard and AI advisor. Unlike
 
 ---
 
-## 📂 Project Architecture
-
-```
-finance-agent/
-├── 📁 api/                   # Serverless Functions (Backend Handlers)
-│   ├── agent.js              # Advice prompt compiler & Groq integration
-│   ├── auth.js               # JWT Auth & account management
-│   ├── dbFallback.js         # Local JSON Mock database fallback
-│   ├── market.js             # Financial prices & RSS news integration
-│   └── social.js             # Reddit feed & sentiment aggregator
-├── 📁 backend/               # Separate Express-Mongoose codebase setup
-├── 📁 js/                    # Client-side Modules
-│   ├── app.js                # Core controller, routers & views
-│   ├── auth.js               # Auth requests & storage helpers
-│   ├── agent.js              # Advice pipeline trigger
-│   ├── EmotionEngine.js      # Gated local evaluation & HuggingFace pipeline
-│   ├── market.js             # Client market hooks
-│   └── toneAnalyzer.js       # Vocal and audio analysis
-├── .env                      # App environment variables (ignored)
-├── vercel.json               # Cloud Vercel routing configuration
-├── dev-server.js             # Local static & endpoint Express proxy server
-├── index.html                # Application root template
-└── style.css                 # Premium custom design system styles
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Installation
-Clone the repository, navigate into the project directory, and install the dependencies:
-```bash
-npm install
-```
-
-### 2. Environment Setup
-Create a `.env` file in the root directory and add your keys (FinMind runs fully featured fallbacks if these are omitted):
-```env
-PORT=3000
-JWT_SECRET=your_super_secret_jwt_key
-
-# Optional: Add Groq API Key to enable Llama LLM Advice
-GROQ_API_KEY=your_groq_api_key_here
-
-# Optional: Add MongoDB connection string (falls back to local users_db.json if blank)
-MONGODB_URI=your_mongodb_atlas_connection_string
-```
-
-### 3. Run Locally
-Start the local development server:
-```bash
-node dev-server.js
-```
-Open [http://localhost:3000](http://localhost:3000) in your web browser.
-
----
-
 ## 🛠️ Tech Stack
 
 *   **Frontend:** HTML5, Modern Vanilla CSS3, Module JS architecture
 *   **Backend:** Node.js, Express, Vercel Serverless Functions
 *   **AI Integration:** Groq API (Llama models), Hugging Face APIs
 *   **Database:** MongoDB Atlas / Local JSON Mock Database
+
+---
+
+## 🌐 Deployment & Self-Hosting Guide
+
+If you are hosting or deploying this application yourself, you will need to configure the following environment variables on your hosting provider (e.g., Vercel, Render, Heroku) or server:
+
+### Environment Variables
+Do **not** commit these variables or your `.env` file to GitHub. Instead, configure them in your hosting provider's settings panel:
+
+| Variable | Description | Requirement |
+| :--- | :--- | :--- |
+| `JWT_SECRET` | Secret key used to sign JSON Web Tokens for user auth. | Required |
+| `GROQ_API_KEY` | Your Groq Cloud API key to connect Llama AI models. | Optional (runs local rule-based fallback if empty) |
+| `MONGODB_URI` | MongoDB Atlas database connection string. | Optional (runs local JSON database fallback `users_db.json` if empty) |
+
+### Deploying to Vercel
+1. Push this code to your GitHub repository.
+2. Link your repository in Vercel.
+3. Add `JWT_SECRET`, `GROQ_API_KEY`, and `MONGODB_URI` under **Settings** -> **Environment Variables** in the Vercel Dashboard.
+4. Deploy!
+
+---
+
+## 💻 Local Development Setup (For Contributors)
+
+If you want to clone this repository and run it locally for development:
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Configure Local Environment**:
+   Create a `.env` file in the root of the project:
+   ```env
+   PORT=3000
+   JWT_SECRET=your_local_secret_key
+   GROQ_API_KEY=your_groq_api_key
+   MONGODB_URI=your_mongodb_connection_uri
+   ```
+
+3. **Start the dev server**:
+   ```bash
+   node dev-server.js
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your web browser.
